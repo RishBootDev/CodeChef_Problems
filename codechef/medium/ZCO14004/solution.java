@@ -14,7 +14,7 @@ class Codechef
 
         int[] fees = new int[n]; 
         for (int i = 0; i < n; i++) {
-            fees[i] = scanner.nextInt(); // Read each fee
+            fees[i] = scanner.nextInt();
         }
         if (n == 1) {
             System.out.println(fees[0]);
