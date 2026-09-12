@@ -74,7 +74,7 @@ Explanation: 3+3+3+5+3
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-12T10:57:28.663Z  
+**Submitted:** 2026-09-12T10:58:32.228Z  
 
 ```java
 import java.util.*;
@@ -93,7 +93,7 @@ class Codechef
 
         int[] fees = new int[n]; 
         for (int i = 0; i < n; i++) {
-            fees[i] = scanner.nextInt(); // Read each fee
+            fees[i] = scanner.nextInt();
         }
         if (n == 1) {
             System.out.println(fees[0]);
