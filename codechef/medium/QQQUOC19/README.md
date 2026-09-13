@@ -50,7 +50,7 @@ Result: `652781`
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T04:09:30.845Z  
+**Submitted:** 2026-09-13T04:09:37.901Z  
 
 ```java
 import java.util.*;
