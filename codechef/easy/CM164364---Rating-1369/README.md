@@ -58,7 +58,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T07:30:49.364Z  
+**Submitted:** 2026-09-17T07:31:57.966Z  
 
 ```java
 import java.util.*;
@@ -67,6 +67,7 @@ import java.io.*;
 
 class Codechef
 {
+	
 	public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc = new Scanner(System.in);
@@ -83,9 +84,9 @@ class Codechef
             PriorityQueue<Integer> pq = new PriorityQueue<>(
                     (k1, k2) -> map.get(k2) - map.get(k1)
             );
-            for(int c : map.keySet()) {
-                pq.add(c);
-            }
+
+            pq.addAll(map.keySet());
+
             while(k -- > 0 && !pq.isEmpty()) {
                 int temp = pq.poll();
                 int value = map.get(temp);
@@ -93,7 +94,7 @@ class Codechef
                 if(value != 0) {
                     map.put(temp, value);
                     pq.add(temp);
-                
+
                 }else map.remove(temp);
             }
             System.out.println(map.size());
@@ -101,6 +102,7 @@ class Codechef
         }
     }
 }
+
 ```
 
 ---
