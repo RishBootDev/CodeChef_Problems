@@ -45,7 +45,7 @@ Sum = 252 -> palindrome
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-25T04:49:05.853Z  
+**Submitted:** 2026-09-25T04:49:08.650Z  
 
 ```java
 import java.util.*;
